@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tellal Gizlilik Politikası</title>
+<meta name="description" content="Tellal: Sana Göre Haberler. Akış biter, sen güncelsin.">
+<meta property="og:image" content="img/social-tr.png">
+<link rel="icon" href="img/icon.png">
+<style>
+@font-face { font-family: Newsreader; src: url(fonts/newsreader_semibold.ttf); font-weight: 600; }
+@font-face { font-family: Inter; src: url(fonts/inter_regular.ttf); font-weight: 400; }
+@font-face { font-family: Inter; src: url(fonts/inter_semibold.ttf); font-weight: 600; }
+:root { --navy: #1E2A40; --paper: #FAF7F2; --ink: #1D1F24; --muted: #5A6170; --accent: #C0402B; --line: #E4DED3; }
+@media (prefers-color-scheme: dark) { :root { --paper: #0E121B; --ink: #E7E3DB; --muted: #A3A9B5; --accent: #F0775A; --line: #2A3142; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 Inter, system-ui, sans-serif; }
+header { background: var(--navy); color: #FAF7F2; padding: 20px 16px; }
+header a { color: #FAF7F2; text-decoration: none; font-family: Newsreader, serif; font-size: 28px; font-weight: 600; }
+header nav { margin-top: 6px; font-size: 15px; }
+header nav a { font: 15px Inter, sans-serif; margin-right: 16px; opacity: .85; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+h1, h2, h3 { font-family: Newsreader, serif; font-weight: 600; line-height: 1.2; }
+h1 { font-size: 36px; } h2 { font-size: 26px; margin-top: 36px; } h3 { font-size: 21px; }
+a { color: var(--accent); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; display: block; overflow-x: auto; }
+th, td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+code { font-size: 14px; }
+.hero { display: grid; gap: 24px; }
+.hero img { width: 100%; border-radius: 12px; }
+.shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.shots img { width: 100%; border-radius: 8px; }
+.points li { margin: 6px 0; }
+footer { color: var(--muted); font-size: 14px; max-width: 760px; margin: 0 auto; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+<header><a href="index.html">Tellal</a><nav><a href="index.html">Tellal</a><a href="gizlilik.html">Gizlilik</a><a href="iletisim.html">İletişim</a><a href="en.html">English</a></nav></header>
+<main>
+<h1>Tellal Gizlilik Politikası</h1>
+<p><strong>Y&#252;r&#252;rl&#252;k tarihi:</strong> 2026-11-20<br><strong>Yayıncı:</strong> Resul İLHAN<br><strong>İletişim:</strong> resulilhan0238@gmail.com</p>
+<h2>Kısaca</h2>
+<ul>
+<li>Tellal <strong>hesap istemez</strong>. Adın, e-posta adresin, telefon numaran sorulmaz.</li>
+<li>Tellal <strong>reklam, analitik, &#231;&#246;kme raporlama veya izleme aracı i&#231;ermez</strong>. Tek istisna: başka dildeki haberlerin cihazda &#231;evrilmesi i&#231;in kullanılan Google ML Kit, Google&#39;a &#246;zelliğin performans ve kullanım &#246;l&#231;&#252;mlerini g&#246;nderir (haber metni g&#246;nderilmez; bkz. 2d). iPhone&#39;da ayrıca, kapatılabilen “Daha sık kontrol” i&#231;in Google Firebase Cloud Messaging rastgele bir cihaz kimliği kullanır (bkz. 5).</li>
+<li>Tercihlerin (ilgi alanların, şehrin, bildirim ayarların), notların ve okuma ge&#231;mişin <strong>yalnızca cihazında</strong> saklanır. Akışın senden &#246;ğrenmesi, “Sen yokken” ve “Haftanın &#214;zeti” tamamen cihazında hesaplanır. Namaz vakitleri de cihazında hesaplanır.</li>
+<li>Biz (yayıncı) senin hakkında <strong>hi&#231;bir kişisel veriyi sunucularımızda toplamayız ya da saklamayız</strong>.</li>
+</ul>
+<h2>1. Cihazında saklanan bilgiler</h2>
+<p>Aşağıdakiler yalnızca telefonunda, uygulamanın kendi depolama alanında tutulur ve bize g&#246;nderilmez:</p>
+<table>
+<tr><th>Bilgi</th><th>Neden</th></tr>
+<tr><td>İlgi alanların ve 1–5 arası &#246;nem dereceleri</td><td>Akışı sıralamak</td></tr>
+<tr><td>Se&#231;tiğin şehir</td><td>Şehir sekmesi, şehir radarı, hava durumu ve namaz vakitleri</td></tr>
+<tr><td>Dil, tema, Sakin Mod, brifing saati, şerit ve bildirim tercihleri</td><td>Uygulama ayarları</td></tr>
+<tr><td>İndirilen haber başlıkları, kısa &#246;zetler, g&#246;rsel adresleri ve cihazda yapılmış &#231;evirileri</td><td>&#199;evrimdışı okuma (7 g&#252;n sonra silinir; takip ettiğin konuların haberleri 60 g&#252;n, kaydettiklerin sen silene kadar tutulur)</td></tr>
+<tr><td>Kaydettiğin haberler, “Sonra oku” listen ve takip ettiğin konular (zil a&#231;ık mı)</td><td>Kaydedilenler ve Takip ekranları, anahtar kelime alarmları</td></tr>
+<tr><td>Notların: yazdığın metin, isteğe bağlı ekran g&#246;r&#252;nt&#252;s&#252;, bağlı olduğu haberin başlığı ve adresi, hatırlatma zamanı ya da fiyat koşulu</td><td>Notlarım ekranı ve hatırlatmalar. Sen silene kadar tutulur; ekran g&#246;r&#252;nt&#252;s&#252; notla birlikte silinir.</td></tr>
+<tr><td>Okuma ge&#231;mişi: hangi haberi ne zaman a&#231;tığın, haberin kategorisi ve kaynağı</td><td>“Sen yokken”, “Haftanın &#214;zeti”, takip &#246;nerisi ve &#246;ğrenen akış. <strong>8 hafta sonra kendiliğinden silinir.</strong></td></tr>
+<tr><td>&#214;ğrenilen ağırlıklar (kategori ve kaynak başına bir &#231;arpan) ve “Ge&#231;” dediğin haberler</td><td>Akışı sana g&#246;re ayarlamak. <em>Ayarlar → Akışım neden b&#246;yle?</em> ekranında g&#246;r&#252;n&#252;r ve tek dokunuşla sıfırlanır.</td></tr>
+<tr><td>Se&#231;tiğin şehrin hava durumu (en fazla 30 dakika)</td><td>Şehir panelini her a&#231;ılışta yeniden indirmemek</td></tr>
+<tr><td>D&#246;viz ve altın fiyatları ve son 7 g&#252;n&#252;n kapanışları</td><td>Piyasa şeridi ve fiyat hatırlatmaları</td></tr>
+<tr><td>Paylaşım kartı g&#246;rseli</td><td>Paylaşırken oluşturulur; her bi&#231;im i&#231;in tek dosya tutulur ve bir sonraki paylaşımda &#252;zerine yazılır</td></tr>
+</table>
+<p><strong>Yedekleme:</strong> Android&#39;in kendi yedekleme &#246;zelliği a&#231;ıksa, ayarların Google hesabındaki cihaz yedeğine dahil edilebilir (bu yedek Google tarafından, senin hesabında tutulur; biz erişemeyiz). Haber &#246;nbelleği, kaydedilenler, takip edilen konular, notlar ve ekran g&#246;r&#252;nt&#252;leri, okuma ge&#231;mişi ve &#246;ğrenilen ağırlıklar yedeğe alınmaz. <strong>iPhone/iPad&#39;de</strong> ayarlar iCloud yedeğine girebilir; haber &#246;nbelleği, notlar ve ekran g&#246;r&#252;nt&#252;leri, okuma ge&#231;mişi ve &#246;ğrenilen ağırlıklar iCloud yedeğinin dışında tutulur.</p>
+<p>Bu bilgilerin hepsini <strong>uygulamayı kaldırarak</strong> silebilirsin (Android&#39;de ayrıca <em>Ayarlar → Uygulamalar → Tellal → Depolama → Verileri temizle</em>).</p>
+<h2>2. Haberleri indirirken</h2>
+<p>Tellal haberleri doğrudan yayıncıların herkese a&#231;ık RSS akışlarından ve g&#246;rsellerini yayıncıların sunucularından indirir. Bu bağlantılar senin cihazından yayıncının sunucusuna yapılır; dolayısıyla, her web sitesini ziyaret ettiğinde olduğu gibi, <strong>yayıncı IP adresini ve uygulamanın s&#252;r&#252;m bilgisini (User-Agent) g&#246;rebilir</strong>. Yayıncıların bu bilgileri nasıl işlediği kendi gizlilik politikalarına tabidir.</p>
+<p>Bir habere dokunduğunda haberin tamamı yayıncının web sitesinde, Android&#39;de cihazının tarayıcısı (Custom Tabs) i&#231;inde, iPhone&#39;da Safari&#39;de a&#231;ılır. O sayfada ge&#231;erli olan &#231;erez ve gizlilik kuralları yayıncıya ve tarayıcına aittir.</p>
+<p>Şehir panelindeki <strong>resm&#238; duyurular</strong> da aynı şekilde, belediyelerin herkese a&#231;ık RSS akışlarından doğrudan indirilir.</p>
+<h2>2a. Hava durumu (şehir paneli)</h2>
+<p>Bir şehir se&#231;tiysen, o şehrin hava durumu <strong>Open-Meteo</strong> (open-meteo.com) hizmetinden alınır:</p>
+<ul>
+<li>&#214;nce şehrin <strong>adı</strong> Open-Meteo&#39;nun yer arama hizmetine g&#246;nderilir; sonra bulunan <strong>şehir merkezinin koordinatı</strong> hava tahmini i&#231;in g&#246;nderilir. Bu koordinat senin konumun değil, se&#231;tiğin şehrin merkezidir.</li>
+<li>Bağlantı cihazından Open-Meteo&#39;ya yapılır; Open-Meteo, her web isteğinde olduğu gibi IP adresini g&#246;r&#252;r. Koşulları: <a href="https://open-meteo.com/en/terms">https://open-meteo.com/en/terms</a>.</li>
+<li>Sonu&#231; cihazında en fazla 30 dakika tutulur. Hava verisi Open-Meteo.com&#39;a aittir (CC BY 4.0) ve uygulamada bu kaynak belirtilir.</li>
+</ul>
+<p>Şehir se&#231;mezsen hava durumu isteği yapılmaz. <strong>Namaz vakitleri</strong> i&#231;in hi&#231;bir istek yapılmaz: se&#231;tiğin şehrin merkezine g&#246;re, Diyanet&#39;in y&#246;ntemiyle cihazında hesaplanır.</p>
+<h2>2b. Sesli brifing</h2>
+<p>“Dinle” dediğinde brifingdeki haberlerin başlık ve kısa &#246;zetleri, telefonunda se&#231;ili olan <strong>metin okuma motoruyla</strong> (Android&#39;de TextToSpeech, &#246;r. Google Konuşma Hizmetleri; iPhone&#39;da iOS&#39;un kendi sesi) seslendirilir. Tellal bu metni bir sunucuya g&#246;ndermez. Se&#231;tiğin motorun, ses paketi cihazda yoksa metni kendi sunucusunda işleyip işlemediği o motorun gizlilik koşullarına bağlıdır. Seslendirme s&#252;rerken telefon, kilit ekranında ve bildirimlerde oynatma kontrollerini g&#246;sterir.</p>
+<h2>2c. Paylaşım</h2>
+<p>Paylaşım yalnızca sen “Paylaş”a dokunduğunda olur. Bağlantı ya da kart g&#246;rseli (başlık, kaynak adı, Tellal logosu; haber metni yok) cihazında hazırlanır ve <strong>senin se&#231;tiğin uygulamaya</strong> (&#246;r. WhatsApp) telefonun paylaşım ekranıyla verilir. Tellal paylaşımın nereye gittiğini kaydetmez.</p>
+<h2>2d. Otomatik &#231;eviri (Google ML Kit)</h2>
+<p>Se&#231;tiğin dilden başka bir dilde yazılmış haberlerin <strong>yalnızca başlığı ve kısa &#246;zeti</strong>, telefonunda &#231;alışan <strong>Google ML Kit &#231;eviri</strong> modeliyle &#231;evrilir:</p>
+<ul>
+<li>&#199;eviri <strong>cihazda</strong> yapılır; haber metni hi&#231;bir sunucuya g&#246;nderilmez. Tam makale indirilmez ve &#231;evrilmez.</li>
+<li>&#199;eviri modeli (dil başına yaklaşık 30 MB) bir kez Google sunucularından indirilir; varsayılan olarak yalnızca Wi-Fi&#39;da. Ayarlar › Dil ve &#231;eviri&#39;den mobil veriyle indirmeye izin verebilirsin.</li>
+<li>ML Kit, modeli indirmek ve g&#252;ncellemek i&#231;in Google&#39;a bağlanır ve Google&#39;a &#231;eviri &#246;zelliğinin <strong>performansı ve kullanımı hakkında &#246;l&#231;&#252;mler</strong> (&#246;r. cihaz ve uygulama bilgisi, hata kodları) g&#246;nderir. Bu &#246;l&#231;&#252;mler haber metnini i&#231;ermez. Koşullar: <a href="https://developers.google.com/ml-kit/terms">https://developers.google.com/ml-kit/terms</a>.</li>
+<li>&#199;eviriler yalnızca cihazındaki veritabanında saklanır ve haberle birlikte silinir.</li>
+<li>Ayarlar › Dil ve &#231;eviri › “Haberleri orijinal dilinde g&#246;ster”i a&#231;arsan &#231;eviri yapılmaz.</li>
+</ul>
+<h2>2e. Piyasa şeridi</h2>
+<p>T&#252;rkiye sekmesindeki d&#246;viz ve altın şeridini a&#231;tıysan (ya da bir notta fiyat hatırlatması kurduysan) fiyatlar anahtar gerektirmeyen, herkese a&#231;ık iki kaynaktan indirilir:</p>
+<ul>
+<li><strong>T&#252;rkiye Cumhuriyet Merkez Bankası</strong> g&#246;sterge niteliğindeki kurlar (tcmb.gov.tr); şeritte “Kaynak: TCMB” yazar.</li>
+<li>A&#231;ık kaynaklı <strong>currency-api</strong> veri seti (cdn.jsdelivr.net ya da yedeği currency-api.pages.dev); TCMB&#39;nin yayımlamadığı kalemler ve hafta sonları i&#231;in.</li>
+</ul>
+<p>Bu isteklerde senin hakkında bir bilgi g&#246;nderilmez; sunucular, her web isteğinde olduğu gibi IP adresini g&#246;r&#252;r. Şerit kapalıysa ve fiyat hatırlatman yoksa bu istekler yapılmaz.</p>
+<h2>3. Konum (isteğe bağlı)</h2>
+<p>Şehir se&#231;erken “Konumumu kullan” d&#252;ğmesine dokunursan ve izin verirsen:</p>
+<ul>
+<li>Yalnızca <strong>yaklaşık konum</strong> (şehir d&#252;zeyi) <strong>bir kez</strong> okunur. Hassas konum istenmez, arka planda konum okunmaz.</li>
+<li>Koordinat, telefonun konum-adres &#231;eviri hizmetiyle şehir adına &#231;evrilir: Android&#39;de Geocoder (cihaz &#252;reticisine bağlı olarak Google Play Hizmetleri gibi bir sistem hizmeti &#252;zerinden), iPhone&#39;da Apple&#39;ın adres &#231;&#246;z&#252;mleme hizmeti (CLGeocoder; Apple&#39;ın sunucularına gider).</li>
+<li>Koordinat <strong>saklanmaz</strong> ve <strong>bize g&#246;nderilmez</strong>; yalnızca bulunan şehir tercih olarak kaydedilir.</li>
+</ul>
+<p>İzin vermek zorunlu değildir; şehrini listeden elle de se&#231;ebilirsin.</p>
+<h2>4. “Bu neden &#246;nemli?” yapay zek&#226; a&#231;ıklaması (isteğe bağlı)</h2>
+<p>Bir haberin detayında “Bu neden &#246;nemli?” d&#252;ğmesine <strong>dokunduğunda</strong>:</p>
+<ul>
+<li>Yalnızca <strong>o haberin başlığı, kısa &#246;zeti ve uygulamanın dili</strong> Tellal&#39;ın ara sunucusuna (Cloudflare &#252;zerinde &#231;alışır) g&#246;nderilir. Bu metinler yayıncının herkese a&#231;ık akışından gelir; senin hakkında bir bilgi i&#231;ermez.</li>
+<li>Ara sunucu bu metni bir yapay zek&#226; hizmetine, <strong>Anthropic PBC</strong>&#39;nin Claude modeline iletir ve cevabı sana d&#246;nd&#252;r&#252;r. Anthropic&#39;in veri işleme koşulları: <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a>.</li>
+<li>Aynı haber i&#231;in &#252;retilen a&#231;ıklama, maliyeti azaltmak amacıyla <strong>7 g&#252;n</strong> boyunca sunucuda &#246;nbellekte tutulur ve aynı haberi isteyen herkese g&#246;sterilir. &#214;nbellek kaydı haber metninden t&#252;retilir, kişiye bağlı değildir.</li>
+<li>K&#246;t&#252;ye kullanımı &#246;nlemek i&#231;in ara sunucu, isteğin geldiği <strong>IP adresini</strong> dakikalık istek sınırı uygulamak amacıyla ge&#231;ici olarak kullanır; IP adresi kaydedilmez ve g&#252;nl&#252;klere yazılmaz.</li>
+</ul>
+<p>Yapay zek&#226; a&#231;ıklaması uygulamada “Yapay zek&#226; &#246;zetidir, kaynağı kontrol edin.” etiketiyle g&#246;sterilir ve hata i&#231;erebilir. Ara sunucu adresi tanımlı değilse d&#252;ğme hi&#231; g&#246;r&#252;nmez.</p>
+<h2>5. Bildirimler ve hatırlatmalar</h2>
+<p>G&#252;nl&#252;k brifing, (a&#231;arsan) ilgi alanı bildirimleri, takip ettiğin konuların zil bildirimleri (anahtar kelime alarmları), not hatırlatmaları ve isteğe bağlı namaz vakti bildirimi <strong>cihazında</strong> oluşturulur; eşleştirme indirilen başlıklar &#252;zerinde telefonunda yapılır. Ana ekran widget&#39;ları da yalnızca cihazdaki &#246;nbelleği g&#246;sterir. Android&#39;de Tellal bir bildirim sunucusu veya anlık bildirim (push) hizmeti kullanmaz; cihaz kimliğin hi&#231;bir yere kaydedilmez.</p>
+<p><strong>iPhone&#39;da “Daha sık kontrol” (Bildirimler ayarı, varsayılan a&#231;ık, istediğin an kapatılabilir):</strong> iPhone arka plan kontrol&#252;n&#252; seyrek &#231;alıştırdığı i&#231;in, sunucumuz yarım saatte bir <strong>i&#231;eriği olmayan sessiz bir uyarı</strong> g&#246;nderir; iPhone izin verirse Tellal uyanır ve haberleri yine telefonunda kontrol eder. Bu uyarıyı iletmek i&#231;in <strong>Google Firebase Cloud Messaging</strong> kullanılır: Firebase, telefonuna rastgele bir kurulum kimliği verir ve Apple&#39;ın bildirim adresini (APNs jetonu) bu kimlikle eşleştirir; abonelik sırasında cihaz modeli, işletim sistemi s&#252;r&#252;m&#252;, dil ve saat dilimi gibi teknik bilgiler de Google&#39;a gider. Herkes aynı uyarıyı aynı konudan alır: ilgi alanların, okudukların, takip ettiklerin veya konumun g&#246;nderilmez. Biz cihaz listesi tutmayız; kimlik Google&#39;da kalır ve ayarı kapatınca abonelik ve kayıt silinir. Bu kayıt ilk kurulum adımları tamamlanmadan yapılmaz.</p>
+<h2>6. Paylaşım ve satış</h2>
+<p>Kişisel verini <strong>satmayız, kiralamayız, reklam amacıyla kullanmayız ve &#252;&#231;&#252;nc&#252; taraflarla paylaşmayız</strong>. Yukarıda anlatılan yayıncı ve belediye bağlantıları, hava durumu ve piyasa istekleri, ML Kit model indirmesi, iPhone&#39;daki Firebase kaydı ve isteğe bağlı yapay zek&#226; isteği dışında uygulama başka bir sunucuyla iletişim kurmaz.</p>
+<h2>7. &#199;ocuklar</h2>
+<p>Tellal genel kitleye y&#246;nelik bir haber uygulamasıdır; 13 yaşından k&#252;&#231;&#252;k &#231;ocuklara y&#246;nelik değildir ve bilerek &#231;ocuklardan veri toplamaz.</p>
+<h2>8. G&#252;venlik</h2>
+<p>T&#252;m bağlantılar HTTPS ile şifrelenir. Cihazda saklanan veriler işletim sisteminin uygulama yalıtımıyla korunur.</p>
+<h2>9. Hakların</h2>
+<p>Biz sunucularımızda senin hakkında kişisel veri tutmadığımız i&#231;in silinecek ya da dışa aktarılacak bir hesap kaydı yoktur. Cihazındaki verileri yukarıda anlatıldığı gibi istediğin zaman silebilirsin. 6698 sayılı KVKK ve GDPR kapsamındaki soruların i&#231;in bize <strong>resulilhan0238@gmail.com</strong> &#252;zerinden ulaşabilirsin.</p>
+<h2>10. Değişiklikler</h2>
+<p>Bu politikayı değiştirirsek g&#252;ncel h&#226;lini bu sayfada, yeni y&#252;r&#252;rl&#252;k tarihiyle yayımlarız. &#214;nemli değişiklikleri uygulama g&#252;ncellemesinin notlarında da belirtiriz.</p>
+<hr>
+<p><em>Test (β) s&#252;r&#252;m&#252; hakkında not:</em> Mağazaya girmeyen kişisel test s&#252;r&#252;m&#252;nde ayrıca <strong>Keşif Defteri</strong> (fikir notları, &#246;zellik kullanım sayıları ve hata kayıtları; yalnızca cihazda, sen dışa aktarıp paylaşmadık&#231;a hi&#231;bir yere gitmez), <strong>g&#252;ncelleme kontrol&#252;</strong> (g&#252;nde bir kez GitHub&#39;dan s&#252;r&#252;m bilgisi; istekte senin hakkında bilgi yok) ve <strong>Pusula&#39;dan veri aktarımı</strong> (aynı telefondaki Pusula&#39;dan ya da senin se&#231;tiğin dosyadan; hi&#231;bir sunucuya gitmez) bulunur.</p>
+
+</main>
+<footer>© 2026 Resul İLHAN · Tellal</footer>
+</body>
+</html>

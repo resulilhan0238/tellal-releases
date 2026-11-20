@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tellal: News Around You</title>
+<meta name="description" content="Tellal: News Around You. The feed ends. You're up to date.">
+<meta property="og:image" content="img/social-en.png">
+<link rel="icon" href="img/icon.png">
+<style>
+@font-face { font-family: Newsreader; src: url(fonts/newsreader_semibold.ttf); font-weight: 600; }
+@font-face { font-family: Inter; src: url(fonts/inter_regular.ttf); font-weight: 400; }
+@font-face { font-family: Inter; src: url(fonts/inter_semibold.ttf); font-weight: 600; }
+:root { --navy: #1E2A40; --paper: #FAF7F2; --ink: #1D1F24; --muted: #5A6170; --accent: #C0402B; --line: #E4DED3; }
+@media (prefers-color-scheme: dark) { :root { --paper: #0E121B; --ink: #E7E3DB; --muted: #A3A9B5; --accent: #F0775A; --line: #2A3142; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 Inter, system-ui, sans-serif; }
+header { background: var(--navy); color: #FAF7F2; padding: 20px 16px; }
+header a { color: #FAF7F2; text-decoration: none; font-family: Newsreader, serif; font-size: 28px; font-weight: 600; }
+header nav { margin-top: 6px; font-size: 15px; }
+header nav a { font: 15px Inter, sans-serif; margin-right: 16px; opacity: .85; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+h1, h2, h3 { font-family: Newsreader, serif; font-weight: 600; line-height: 1.2; }
+h1 { font-size: 36px; } h2 { font-size: 26px; margin-top: 36px; } h3 { font-size: 21px; }
+a { color: var(--accent); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; display: block; overflow-x: auto; }
+th, td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+code { font-size: 14px; }
+.hero { display: grid; gap: 24px; }
+.hero img { width: 100%; border-radius: 12px; }
+.shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.shots img { width: 100%; border-radius: 8px; }
+.points li { margin: 6px 0; }
+footer { color: var(--muted); font-size: 14px; max-width: 760px; margin: 0 auto; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+<header><a href="en.html">Tellal</a><nav><a href="en.html">Tellal</a><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a><a href="index.html">Türkçe</a></nav></header>
+<main>
+<div class="hero">
+<h1>The feed ends. You&#39;re up to date.</h1>
+<p>Tellal gathers the news of the world, your country and your city in one place, shows what matters and then stops. No account, no ads, no tracking.</p>
+<img src="img/promo-en.png" alt="Tellal">
+</div>
+<ul class="points">
+<li><strong>Today's Compass:</strong> how much news there is on each topic today; the needle shows what moved most since you last looked.</li>
+<li><strong>A feed with an end:</strong> the last 24 hours, most important first; then &ldquo;You're up to date ✓&rdquo;.</li>
+<li><strong>Who reported this?</strong> Outlets covering the same event in one card, headlines side by side.</li>
+<li><strong>Your city's crier:</strong> weather, prayer times and official announcements from your municipality.</li>
+<li><strong>Privacy:</strong> what you read stays on your phone; even translation happens there.</li>
+</ul>
+<div class="shots">
+<img src="img/en-07-compass.png" alt="" loading="lazy">
+<img src="img/en-08-ends.png" alt="" loading="lazy">
+<img src="img/en-09-sources.png" alt="" loading="lazy">
+<img src="img/en-10-privacy.png" alt="" loading="lazy">
+</div>
+<p><a href="privacy.html">Privacy policy</a> · <a href="contact.html">Contact and support</a></p>
+</main>
+<footer>© 2026 Resul İLHAN · Tellal</footer>
+</body>
+</html>
